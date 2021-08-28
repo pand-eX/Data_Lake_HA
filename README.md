@@ -1,4 +1,4 @@
-# Alta Disponibilidade no cluster Data Lake 
+# Alta Disponibilidade no Data Lake 
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/pand-eX/Alta_disponibilidade_Streaming/blob/main/LICENSE) 
 
