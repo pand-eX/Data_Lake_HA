@@ -1,0 +1,11 @@
+curl -i "http://192.168.1.108:50070/webhdfs/v1/dados/tag-genome.zip?op=GETFILESTATUS"
+
+curl -i -X PUT "http://192.168.1.108:50070/webhdfs/v1/dados2?user.name=hadoop&op=MKDIRS"
+
+curl -vL -T teste2.zip -X PUT http://192.168.1.108:50070/webhdfs/v1/dados2/teste2.zip?op=CREATE&overwrite=true&user.name=hadoop
+
+curl -vL -T mensagem.txt -X PUT http://192.168.1.108:50070/webhdfs/v1/dados2/mensagem.txt?op=CREATE&overwrite=true&user.name=hadoop
+
+curl -i -L "http://192.168.1.108:50070/webhdfs/v1/dados2/mensagem.txt?op=OPEN&user.name=hadoop"
+
+http://192.168.1.134:50070/webhdfs/v1/dados2/mensagem.txt?op=GETFILESTATUS
