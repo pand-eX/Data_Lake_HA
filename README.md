@@ -1,6 +1,6 @@
 # Alta Disponibilidade no Data Lake 
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/pand-eX/Alta_disponibilidade_Streaming/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/pand-eX/Data_Lake_HA/blob/main/LICENSE) 
 
 # About the project
 
